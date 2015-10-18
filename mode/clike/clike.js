@@ -434,7 +434,8 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
     types: words("Action Boolean Byte Char DateTime DateTimeOffset Decimal Double Func" +
                  " Guid Int16 Int32 Int64 Object SByte Single String Task TimeSpan UInt16 UInt32" +
                  " UInt64 bool byte char decimal double short int long object"  +
-                 " sbyte float string ushort uint ulong"),
+                 " sbyte float string ushort uint ulong" +
+                 " Record Column"),
     blockKeywords: words("catch class do else finally for foreach if struct switch try while"),
     defKeywords: words("class interface namespace struct var"),
     typeFirstDefinitions: true,
